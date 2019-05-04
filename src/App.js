@@ -1,18 +1,19 @@
-import React from 'react';
-import logo from './liqr-logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Header from './components/Header';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
+        <Header />
+
+        <div className="content">
+             
+        </div>
+
+      </div>
+    );
+  }
 }
 
 export default App;
