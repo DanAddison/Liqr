@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import logo from '../liqr-logo.svg';
-import Navigation from './Navigation';
+import './navigation.scss';
 
-const LINKS = [
-  { label: 'Home', to: '/' },
-  { label: 'About', to: '/About' },
-];
+import {
+  NavLink
+} from "react-router-dom";
 
 
 class Header extends Component {
@@ -13,9 +12,14 @@ class Header extends Component {
     return (
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div>
-          <Navigation links={LINKS} />
+
+        <div className="Navigation">
+          <ul>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/About">About</NavLink></li>
+          </ul>
         </div>
+
       </header>
     );
   }

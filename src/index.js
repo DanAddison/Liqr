@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './global-styles/sanitize.scss';
-import './global-styles/variables.scss';
-import './global-styles/mixins.scss';
 import './global-styles/index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
