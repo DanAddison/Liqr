@@ -8,6 +8,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.content {
+	// background-color: $secondary;
+	min-height: 100vh;
+}
+
 /*********************************************************
 ## Grid from Nebulo-Shift
 *********************************************************/

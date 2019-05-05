@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
 import {
   Route,
   HashRouter
 } from "react-router-dom";
 
+import Header from './components/Header/Header';
 import Home from "./Home";
 import About from "./About";
 

@@ -1,15 +1,15 @@
 /*------------------------------------*\
     Sizes
 \*------------------------------------*/
-$bp-s: 500px;
-$bp-m: 700px;
+$bp-s: 400px;
+$bp-m: 600px;
 $bp-l: 1000px;
 $bp-xl: 1300px;
 $bp-xxl: 1500px;
 
 $bp-menu: 600px;
 
-$max-width: $bp-xl;
+$max-width: $bp-l;
 
 // spacing
 $spacing: 2em;
@@ -19,6 +19,6 @@ $spacing-percent: 3%;		// Used by grid system
     Colours
 \*------------------------------------*/
 $white: #fff;
-$black: #222;
-$primary: #237d8d;
-$secondary: #adffff;
+$black: #000;
+$primary: #AEA357;
+$secondary: rgb(179, 155, 0);

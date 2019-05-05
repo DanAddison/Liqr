@@ -1,0 +1,41 @@
+@import "../../global-styles/index.scss";
+
+.Navigation {
+  padding-top: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  li {
+    margin: .5em 1em;
+  }
+
+  a {
+    text-decoration: none;
+    color: $black;
+    padding: .1em 0;
+    border-radius: 2px;
+
+    &.active-link {
+      border-bottom: 2px solid $black;
+    }
+
+    &:hover {
+      border-bottom: 2px solid $black;
+    }
+  }
+
+
+  // @include mq($bp-menu) {
+    
+  // }
+}
