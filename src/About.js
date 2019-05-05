@@ -18,7 +18,7 @@ class About extends Component {
 
               <h1>Hi, I'm Dan</h1>
 
-              <p>This is my first ever React.js project. I had fun!</p>
+              <p>This is my first ever React.js app. I had fun!</p>
               <p>The repo for this app can be found <a href="https://github.com/DanAddison/Liqr">here</a></p>
               <p>My Linkedin profile is <a href="https://www.linkedin.com/in/danaddison/">here</a></p>
               <p>Reach me directly at <a href="mailto:danaddisoncreative@gmail.com">danaddisoncreative@gmail.com</a></p>

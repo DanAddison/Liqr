@@ -16,7 +16,7 @@
       width: 150px;
       height: 100%;
       max-width: 100%;
-      margin: 0 2em 1em 0;
+      margin: 0 2em 2em 0;
     }
 
     .contact__copy {
@@ -41,8 +41,8 @@
     
         .icon {
           cursor: pointer;
-          font-size: 1.5em;
-          padding-right: .75em;
+          font-size: 1.25em;
+          padding-right: 1em;
           
           &:hover {
             color: $secondary;
