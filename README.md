@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://danaddisoncreative.com">
-    <img alt="logo of whiskey tumbler with ice cubes" src="src/ligr-logo-2.png" width="60" />
+    <img alt="logo of whiskey tumbler with ice cubes" src="src/liqr-logo-2.png" width="60" />
   </a>
 </p>
 <h1 align="center">
