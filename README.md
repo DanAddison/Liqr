@@ -1,4 +1,11 @@
-# Liqr by Dan Addison
+<p align="center">
+  <a href="https://danaddisoncreative.com">
+    <img alt="logo of whiskey tumbler with ice cubes" src="src/ligr-logo.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Liqr by Dan Addison
+</h1>
 
 **A cornucopia of liquor bottles provided by the Flickr API**
 
